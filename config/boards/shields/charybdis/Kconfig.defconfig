@@ -12,5 +12,8 @@ if SHIELD_CHARYBDIS_LEFT || SHIELD_CHARYBDIS_RIGHT
 
 config ZMK_SPLIT
 	default y
+
+config ZMK_SPLIT_PERIPHERAL_HID_INDICATORS
+	default y
 	
 endif
