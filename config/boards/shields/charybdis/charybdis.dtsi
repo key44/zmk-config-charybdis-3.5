@@ -19,7 +19,6 @@
         >;
     };
 
-	
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
         label = "KSCAN";
@@ -32,6 +31,7 @@
             , <&gpio0 22 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 4 from the schematic file
             ;
     };
+
     left_encoder: encoder_left {
         compatible = "alps,ec11";
         a-gpios = <&gpio0 8  (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
@@ -39,6 +39,7 @@
         steps = <80>;
         status = "disabled";
     };
+
     sensors: sensors {
         compatible = "zmk,keymap-sensors";
         sensors = <&left_encoder>;
