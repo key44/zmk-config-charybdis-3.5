@@ -13,12 +13,6 @@
             bindings = <&kp MINUS>, <&kp LC(SPACE)>;
         };
 
-        scroll: scroll {
-            compatible = "zmk,behavior-sensor-rotate";
-            label = "SCROLL";
-            #sensor-binding-cells = <0>;
-            bindings = <&kp C_AC_SCROLL_UP>, <&kp K_SCROLL_DOWN>;
-        };
     };
 
     keymap {
@@ -33,7 +27,7 @@
                        &kp LCTRL  &lt 1 ENTER  &mt LEFT_ALT GRAVE    &kp LSHIFT  &lt 2 SPACE  &tap_dance_hankaku
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&kp C_AC_SCROLL_UP &kp K_SCROLL_DOWN>;
         };
 
         Lower {
@@ -45,7 +39,7 @@
                                   &kp LC(LA(DEL))  &trans  &trans       &trans    &trans    &kp RALT
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&kp C_AC_SCROLL_UP &kp K_SCROLL_DOWN>;
         };
 
         Raise {
@@ -57,7 +51,7 @@
                                    &trans  &kp LSHIFT  &trans     &trans  &trans    &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&kp C_AC_SCROLL_UP &kp K_SCROLL_DOWN>;
         };
     };
 };
