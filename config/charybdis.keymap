@@ -34,6 +34,7 @@
 &kp LEFT_ALT    &trans    &trans     &trans  &kp MINUS  &kp PLUS       &kp N1   &kp N2  &kp N3  &kp DOT    &trans  &kp F20
                                    &kp LGUI  &kp SPACE    &trans    &kp RCTRL  &kp RET
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         Raise {
@@ -44,6 +45,7 @@
 &trans  &out OUT_TOG  &bootloader      &trans     &trans        &trans    &kp MINUS   &kp PLUS         &kp LBRC  &kp RBRC  &kp PIPE  &kp TILDE
                                      &kp LGUI  &kp SPACE  &kp LEFT_ALT       &trans    &bootloader
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         Game {
@@ -54,6 +56,7 @@
 &trans  &trans  &trans  &trans  &trans        &trans      &trans  &trans  &trans  &trans  &trans   &to 0
                         &trans  &trans  &kp LEFT_ALT    &kp RGUI  &trans
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         Game_++ {
@@ -64,6 +67,7 @@
 &kp F10         &none         &to 0         &none  &kp NUMBER_6  &kp NUMBER_7           &trans         &trans         &trans         &trans         &trans            &to 0
                                             &kp J         &kp I         &kp M           &trans         &trans
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         Mouse {
@@ -73,6 +77,7 @@
 &mkp MCLK  &trans  &trans     &trans  &trans     &trans    &trans  &trans  &trans  &trans  &trans  &mkp LCLK
                            &mkp LCLK  &trans  &mkp RCLK    &trans  &trans
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
     };
 };
