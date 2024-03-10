@@ -16,7 +16,7 @@
             label = "TAP_DANCE_HANKAKU";
             #binding-cells = <0>;
             bindings = <&kp MINUS>, <&kp LC(SPACE)>;
-        };     
+        };
 
         scroll: scroll {
             compatible = "zmk,behavior-sensor-rotate";
@@ -24,7 +24,6 @@
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
         };
-
     };
 
     keymap {
@@ -39,7 +38,7 @@
                        &kp LCTRL  &lt 1 ENTER  &mt LEFT_ALT GRAVE    &kp LSHIFT  &lt 2 SPACE  &tap_dance_hankaku
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
+            sensor-bindings = <&scroll>;
         };
 
         Lower {
