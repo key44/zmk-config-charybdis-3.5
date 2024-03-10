@@ -38,7 +38,7 @@
                        &kp LCTRL  &lt 1 ENTER  &mt LEFT_ALT GRAVE    &kp LSHIFT  &lt 2 SPACE  &tap_dance_hankaku
             >;
 
-            sensor-bindings = <&scroll>;
+            sensor-bindings = <&msc SCRL_UP SCRL_DOWN>;
         };
 
         Lower {
