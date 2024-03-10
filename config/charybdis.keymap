@@ -23,7 +23,7 @@
             label = "SCROLL";
             #sensor-binding-cells = <0>;
             tap-ms = <100>;
-            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+            bindings = <&msc MOVE_Y(40)>, <&msc SCRL_DOWN>;
         };
     };
 
@@ -57,10 +57,10 @@
         Raise {
             label = "Raise";
             bindings = <
-&kp TAB    &bt BT_NXT      &kp F7  &kp F8  &kp F9      &kp F12    &msc SCRL_UP      &kp LPAR  &kp RPAR  &trans  &trans  &kp BSPC
-&kp LCTRL  &bt BT_PRV      &kp F4  &kp F5  &kp F6      &kp F11    &msc SCRL_DOWN    &kp LBKT  &kp RBKT  &trans  &trans  &trans
-&kp LSHFT  &bt BT_CLR_ALL  &kp F1  &kp F2  &kp F3      &kp F10    &trans            &trans    &trans    &trans  &trans  &trans
-                                   &trans  &kp LSHIFT  &msc SCRL_UP     &trans            &trans    &trans
+&kp TAB    &bt BT_NXT      &kp F7  &kp F8  &kp F9      &kp F12    &trans    &kp LPAR  &kp RPAR  &trans  &trans  &kp BSPC
+&kp LCTRL  &bt BT_PRV      &kp F4  &kp F5  &kp F6      &kp F11    &trans    &kp LBKT  &kp RBKT  &trans  &trans  &trans
+&kp LSHFT  &bt BT_CLR_ALL  &kp F1  &kp F2  &kp F3      &kp F10    &trans    &trans    &trans    &trans  &trans  &trans
+                                   &trans  &kp LSHIFT  &trans     &trans    &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
