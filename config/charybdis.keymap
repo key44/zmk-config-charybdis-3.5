@@ -12,6 +12,12 @@
             #binding-cells = <0>;
             bindings = <&kp MINUS>, <&kp LC(SPACE)>;
         };
+        scroll: scroll {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "SCROLL";
+            #sensor-binding-cells = <0>;
+            bindings = <&kp C_AC_SCROLL_UP>, <&kp K_SCROLL_DOWN>;
+        };
 
     };
 
