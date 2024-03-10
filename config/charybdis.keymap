@@ -33,7 +33,7 @@
                        &kp LCTRL  &lt 1 ENTER  &mt LEFT_ALT GRAVE    &kp LSHIFT  &lt 2 SPACE  &tap_dance_hankaku
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
         };
 
         Lower {
