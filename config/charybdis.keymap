@@ -33,7 +33,7 @@
                        &kp LCTRL  &lt 1 ENTER  &mt LEFT_ALT GRAVE    &kp LSHIFT  &lt 2 SPACE  &tap_dance_hankaku
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&scroll>;
         };
 
         Lower {
