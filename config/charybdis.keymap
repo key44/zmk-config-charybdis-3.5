@@ -22,7 +22,7 @@
             compatible = "zmk,behavior-sensor-rotate";
             label = "SCROLL";
             #sensor-binding-cells = <0>;
-            tap-ms = 100;
+            tap-ms = <100>;
             bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
         };
     };
