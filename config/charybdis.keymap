@@ -5,9 +5,9 @@
 #include <dt-bindings/zmk/keys.h>
 
 &msc {
-            time-to-max-speed-ms = <50>;
-            acceleration-exponent = <1>;
-        };
+    time-to-max-speed-ms = <50>;
+    acceleration-exponent = <1>;
+};
 
 / {
     behaviors {
@@ -16,15 +16,13 @@
             label = "TAP_DANCE_HANKAKU";
             #binding-cells = <0>;
             bindings = <&kp MINUS>, <&kp LC(SPACE)>;
-        };
-
-        
+        };     
 
         scroll: scroll {
             compatible = "zmk,behavior-sensor-rotate";
             label = "SCROLL";
             #sensor-binding-cells = <0>;
-            bindings = <&kp C_AC_SCROLL_UP>, <&kp K_SCROLL_DOWN>;
+            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
         };
 
     };
