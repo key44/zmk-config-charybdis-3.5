@@ -13,6 +13,11 @@
             bindings = <&kp MINUS>, <&kp LC(SPACE)>;
         };
 
+        &msc {
+            time-to-max-speed-ms = <50>;
+            acceleration-exponent = <1>;
+        };
+
         scroll: scroll {
             compatible = "zmk,behavior-sensor-rotate";
             label = "SCROLL";
@@ -20,7 +25,6 @@
             bindings = <&kp C_AC_SCROLL_UP>, <&kp K_SCROLL_DOWN>;
         };
 
-        
     };
 
     keymap {
