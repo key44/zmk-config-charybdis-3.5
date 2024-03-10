@@ -13,17 +13,13 @@
             bindings = <&kp MINUS>, <&kp LC(SPACE)>;
         };
 
-        &msc {
-            time-to-max-speed-ms = <50>;
-            acceleration-exponent = <1>;
-        };
-
         scroll: scroll {
             compatible = "zmk,behavior-sensor-rotate";
             label = "SCROLL";
             #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+            bindings = <&kp C_AC_SCROLL_UP>, <&kp K_SCROLL_DOWN>;
         };
+
         
     };
 
