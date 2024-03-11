@@ -7,7 +7,6 @@
 #define MOUSE_SCRL_VAL 70
 #define MOUSE_DELAY 50
 
-
 &msc {
     time-to-max-speed-ms = <50>;
     acceleration-exponent = <1>;
@@ -27,7 +26,9 @@
             label = "SCROLL";
             #sensor-binding-cells = <0>;
             tap-ms = <MOUSE_DELAY>;
-            bindings = <&msc MOVE_Y(-MOUSE_SCRL_VAL)>, <&msc MOVE_Y(MOUSE_SCRL_VAL)>;
+            bindings =
+                <&msc MOVE_Y(-MOUSE_SCRL_VAL)>,
+                <&msc MOVE_Y(MOUSE_SCRL_VAL)>;
         };
     };
 
@@ -49,7 +50,7 @@
         Lower {
             label = "Lower";
             bindings = <
-&kp ASTRK  &kp SLASH      &kp N7  &kp N8           &kp N9  &kp PLUS     &mkp MB1  &mkp MB2  &mkp MB3  &kp N9     &kp N0  &kp BSPC
+&kp ASTRK  &kp SLASH      &kp N7  &kp N8           &kp N9  &kp EQUAL    &mkp MB1  &mkp MB2  &mkp MB3  &kp N9     &kp N0  &kp BSPC
 &kp DEL    &kp BACKSPACE  &kp N4  &kp N5           &kp N6  &kp MINUS    &mkp MB4  &mkp MB5  &kp UP    &trans     &trans  &trans
 &kp ENTER  &kp N0         &kp N1  &kp N2           &kp N3  &kp DOT      &trans    &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
                                   &kp LC(LA(DEL))  &trans  &trans       &trans    &trans    &kp RALT
@@ -61,10 +62,10 @@
         Raise {
             label = "Raise";
             bindings = <
-&kp TAB    &bt BT_NXT      &kp F7  &kp F8  &kp F9      &kp F12    &trans    &kp LPAR  &kp RPAR  &trans  &trans  &kp BSPC
-&kp LCTRL  &bt BT_PRV      &kp F4  &kp F5  &kp F6      &kp F11    &trans    &kp LBKT  &kp RBKT  &trans  &trans  &trans
-&kp LSHFT  &bt BT_CLR_ALL  &kp F1  &kp F2  &kp F3      &kp F10    &trans    &trans    &trans    &trans  &trans  &trans
-                                   &trans  &kp LSHIFT  &trans     &trans    &trans    &trans
+&kp TAB    &bt BT_NXT      &kp F7  &kp F8  &kp F9      &kp F12    &trans  &kp LPAR  &kp RPAR  &trans  &trans  &kp BSPC
+&kp LCTRL  &bt BT_PRV      &kp F4  &kp F5  &kp F6      &kp F11    &trans  &kp LBKT  &kp RBKT  &trans  &trans  &trans
+&kp LSHFT  &bt BT_CLR_ALL  &kp F1  &kp F2  &kp F3      &kp F10    &trans  &trans    &trans    &trans  &trans  &trans
+                                   &trans  &kp LSHIFT  &trans     &trans  &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
