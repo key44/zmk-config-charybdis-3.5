@@ -24,11 +24,11 @@
         label = "KSCAN";
 
         diode-direction = "row2col";
-        row-gpios
-            = <&gpio1 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 2 from the schematic file of charybdis
-            , <&gpio0 24 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 3 from the schematic file of charybdis
-            , <&gpio0 22 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 4 from the schematic file of charybdis
-            , <&gpio1 6  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 5 from the schematic file of charybdis
+		row-gpios
+			= <&pro_micro 18 GPIO_ACTIVE_HIGH>
+			, <&pro_micro 5 GPIO_ACTIVE_HIGH>
+			, <&pro_micro 4 GPIO_ACTIVE_HIGH>
+			, <&pro_micro 9 GPIO_ACTIVE_HIGH>
             ;
     };
 
