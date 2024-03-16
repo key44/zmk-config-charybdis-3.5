@@ -4,22 +4,10 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
-#define MOUSE_SCRL_VAL 70
-#define MOUSE_DELAY 50
-
-&msc {
-    time-to-max-speed-ms = <50>;
-    acceleration-exponent = <1>;
-};
 
 / {
     behaviors {
-        tap_dance_hankaku: tap_dance_hankaku {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_HANKAKU";
-            #binding-cells = <0>;
-            bindings = <&kp MINUS>, <&kp LC(SPACE)>;
-        };
+
     };
 
     keymap {
