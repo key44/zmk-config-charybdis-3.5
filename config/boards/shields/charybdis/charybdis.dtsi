@@ -30,5 +30,5 @@
             , <&gpio0 22 (GPIO_ACTIVE_HIGH)> // Row 4 from the schematic file of charybdis
             , <&gpio1 6  (GPIO_ACTIVE_HIGH)> // Row 5 from the schematic file of charybdis
             ;
-    };-
+    };
 };
