@@ -23,7 +23,7 @@
         compatible = "zmk,kscan-gpio-matrix";
         label = "KSCAN";
 
-        diode-direction = "col2row";
+        diode-direction = "row2col";
         row-gpios
             = <&gpio1 15 GPIO_ACTIVE_LOW> // Row 2 from the schematic file of charybdis
             , <&gpio0 24 GPIO_ACTIVE_LOW> // Row 3 from the schematic file of charybdis
