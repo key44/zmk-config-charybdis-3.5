@@ -30,19 +30,5 @@
             , <&gpio0 22 (GPIO_ACTIVE_HIGH)> // Row 4 from the schematic file of charybdis
             , <&gpio1 6  (GPIO_ACTIVE_HIGH)> // Row 5 from the schematic file of charybdis
             ;
-    };
-
-    left_encoder: encoder_left {
-        compatible = "alps,ec11";
-        a-gpios = <&gpio0 8  (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        b-gpios = <&gpio0 17 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        steps = <80>;
-        status = "disabled";
-    };
-
-    sensors: sensors {
-        compatible = "zmk,keymap-sensors";
-        sensors = <&left_encoder>;
-        triggers-per-rotation = <20>;
-    };
+    };-
 };
