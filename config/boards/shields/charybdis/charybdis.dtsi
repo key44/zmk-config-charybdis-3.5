@@ -25,10 +25,10 @@
 
         diode-direction = "row2col";
         row-gpios
-            = <&gpio1 15 GPIO_ACTIVE_LOW> // Row 2 from the schematic file of charybdis
-            , <&gpio0 24 GPIO_ACTIVE_LOW> // Row 3 from the schematic file of charybdis
-            , <&gpio0 22 GPIO_ACTIVE_LOW> // Row 4 from the schematic file of charybdis
-            , <&gpio1 6  GPIO_ACTIVE_LOW> // Row 5 from the schematic file of charybdis
+            = <&gpio1 15 GPIO_ACTIVE_HIGH> // Row 2 from the schematic file of charybdis
+            , <&gpio0 24 GPIO_ACTIVE_HIGH> // Row 3 from the schematic file of charybdis
+            , <&gpio0 22 GPIO_ACTIVE_HIGH> // Row 4 from the schematic file of charybdis
+            , <&gpio1 6  GPIO_ACTIVE_HIGH> // Row 5 from the schematic file of charybdis
             ;
     };
 
