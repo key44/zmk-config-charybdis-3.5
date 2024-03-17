@@ -45,8 +45,6 @@
             label = "HANZEN_SPACE";
             #binding-cells = <0>;
             bindings = <&kp LEFT_CONTROL>, <&kp LC(SPACE)>;
-
-            tapping-term-ms = <170>;
         };
     };
 
@@ -87,7 +85,7 @@
             bindings = <
 &trans      &trans       &trans        &trans     &kp EXCLAMATION  &trans       &trans  &trans         &trans     &trans     &trans  &trans
 &kp DOLLAR  &kp PERCENT  &kp ASTERISK  &kp HASH   &kp AT_SIGN      &kp CARET    &trans  &mkp LCLK      &mkp RCLK  &mkp MCLK  &trans  &trans
-&kp LC(Z)   &kp LC(Y)    &kp LC(C)     &kp LC(X)  &kp LC(K_PASTE)  &trans       &trans  &mkp MB4       &mkp MB5   &trans     &trans  &trans
+&kp LC(Z)   &kp LC(Y)    &kp LC(C)     &kp LC(X)  &kp LC(V)        &trans       &trans  &mkp MB4       &mkp MB5   &trans     &trans  &trans
                                        &trans     &trans           &trans       &trans  &kp LC(SPACE)
             >;
         };
