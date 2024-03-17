@@ -5,6 +5,35 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        mkp_left {
+            bindings = <&mkp LCLK>;
+            key-positions = <19 20>;
+        };
+
+        rclk {
+            bindings = <&mkp RCLK>;
+            key-positions = <20 21>;
+        };
+
+        mclk {
+            bindings = <&mkp MCLK>;
+            key-positions = <19 21>;
+        };
+
+        mb4 {
+            bindings = <&mkp MB4>;
+            key-positions = <31 32>;
+        };
+
+        mb5 {
+            bindings = <&mkp MB5>;
+            key-positions = <32 33>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
