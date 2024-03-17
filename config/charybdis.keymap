@@ -65,7 +65,7 @@
         Raise {
             label = "Raise";
             bindings = <
-&kp TAB    &bt BT_NXT      &kp F7  &kp F8  &kp F9      &kp F12    &kp CARET  &kp LPAR  &kp RPAR  &trans  &trans  &kp BSPC
+&kp TAB    &bt BT_NXT      &kp F7  &kp F8  &kp F9      &kp F12    &trans     &kp LPAR  &kp RPAR  &trans  &trans  &kp BSPC
 &kp LCTRL  &bt BT_PRV      &kp F4  &kp F5  &kp F6      &kp F11    &kp GRAVE  &kp LBKT  &kp RBKT  &trans  &trans  &trans
 &kp LSHFT  &bt BT_CLR_ALL  &kp F1  &kp F2  &kp F3      &kp F10    &trans     &trans    &trans    &trans  &trans  &trans
                                    &trans  &kp LSHIFT  &trans     &trans     &trans
@@ -74,10 +74,10 @@
 
         mouse_layer {
             bindings = <
-&trans      &trans       &trans        &trans     &kp EXCLAMATION  &trans    &trans  &trans         &trans     &trans     &trans  &trans
-&kp DOLLAR  &kp PERCENT  &kp ASTERISK  &kp HASH   &kp AT_SIGN      &trans    &trans  &mkp LCLK      &mkp RCLK  &mkp MCLK  &trans  &trans
-&kp LC(Z)   &kp LC(Y)    &kp LC(C)     &kp LC(X)  &kp LC(K_PASTE)  &trans    &trans  &mkp MB4       &mkp MB5   &trans     &trans  &trans
-                                       &trans     &trans           &trans    &trans  &kp LC(SPACE)
+&trans      &trans       &trans        &trans     &kp EXCLAMATION  &trans       &trans  &trans         &trans     &trans     &trans  &trans
+&kp DOLLAR  &kp PERCENT  &kp ASTERISK  &kp HASH   &kp AT_SIGN      &kp CARET    &trans  &mkp LCLK      &mkp RCLK  &mkp MCLK  &trans  &trans
+&kp LC(Z)   &kp LC(Y)    &kp LC(C)     &kp LC(X)  &kp LC(K_PASTE)  &trans       &trans  &mkp MB4       &mkp MB5   &trans     &trans  &trans
+                                       &trans     &trans           &trans       &trans  &kp LC(SPACE)
             >;
         };
 
