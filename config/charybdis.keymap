@@ -34,7 +34,7 @@
         };
 
         scroll {
-            bindings = <&mo 3>;
+            bindings = <&mo 1>;
             key-positions = <19 22>;
         };
     };
