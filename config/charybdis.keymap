@@ -32,6 +32,11 @@
             bindings = <&mkp MB5>;
             key-positions = <32 33>;
         };
+
+        scroll {
+            bindings = <&mo 3>;
+            key-positions = <19 22>;
+        };
     };
 
     keymap {
@@ -67,7 +72,7 @@
             >;
         };
 
-        layer_3 {
+        mouse_layer {
             bindings = <
 &trans      &trans       &trans        &trans     &kp EXCLAMATION  &trans    &trans  &trans         &trans     &trans     &trans  &trans
 &kp DOLLAR  &kp PERCENT  &kp ASTERISK  &kp HASH   &kp AT_SIGN      &trans    &trans  &mkp LCLK      &mkp RCLK  &mkp MCLK  &trans  &trans
