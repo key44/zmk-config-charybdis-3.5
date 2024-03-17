@@ -40,10 +40,10 @@
 
         layer_3 {
             bindings = <
-&trans      &trans       &trans        &trans    &kp EXCLAMATION  &trans    &trans  &trans     &trans     &trans     &trans  &trans
-&kp DOLLAR  &kp PERCENT  &kp ASTERISK  &kp HASH  &kp AT_SIGN      &trans    &trans  &mkp LCLK  &mkp RCLK  &mkp MCLK  &trans  &trans
-&trans      &trans       &trans        &trans    &trans           &trans    &trans  &mkp MB4   &mkp MB5   &trans     &trans  &trans
-                                       &trans    &trans           &trans    &trans  &trans
+&trans      &trans       &trans        &trans      &kp EXCLAMATION  &trans    &trans  &trans     &trans     &trans     &trans  &trans
+&kp DOLLAR  &kp PERCENT  &kp ASTERISK  &kp HASH    &kp AT_SIGN      &trans    &trans  &mkp LCLK  &mkp RCLK  &mkp MCLK  &trans  &trans
+&kp K_UNDO  &kp K_REDO   &kp K_CUT     &kp K_COPY  &kp K_PASTE      &trans    &trans  &mkp MB4   &mkp MB5   &trans     &trans  &trans
+                                       &trans      &trans           &trans    &trans  &trans
             >;
         };
 
