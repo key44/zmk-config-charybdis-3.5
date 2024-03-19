@@ -83,10 +83,10 @@
 
         mouse_layer {
             bindings = <
-&trans      &trans       &trans        &trans     &kp EXCLAMATION  &trans       &trans  &trans         &trans     &trans     &trans  &trans
-&kp DOLLAR  &kp PERCENT  &kp ASTERISK  &kp HASH   &kp AT_SIGN      &kp CARET    &trans  &mkp LCLK      &mkp RCLK  &mkp MCLK  &trans  &trans
-&kp LC(Z)   &kp LC(Y)    &kp LC(C)     &kp LC(X)  &kp LC(V)        &trans       &trans  &mkp MB4       &mkp MB5   &trans     &trans  &trans
-                                       &trans     &trans           &trans       &trans  &kp LC(SPACE)
+&trans     &trans       &trans      &trans    &trans       &trans    &trans  &trans         &trans     &trans     &trans  &trans
+&kp CARET  &kp PERCENT  &kp DOLLAR  &kp HASH  &kp AT_SIGN  &trans    &trans  &mkp LCLK      &mkp RCLK  &mkp MCLK  &trans  &trans
+&kp LC(Y)  &kp ASTRK    &trans      &trans    &kp EXCL     &trans    &trans  &mkp MB4       &mkp MB5   &trans     &trans  &trans
+                                    &trans    &trans       &trans    &trans  &kp LC(SPACE)
             >;
         };
 
