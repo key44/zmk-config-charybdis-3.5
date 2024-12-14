@@ -37,11 +37,6 @@
             bindings = <&mo 1>;
             key-positions = <19 22>;
         };
-
-        henkan {
-            bindings = <&kp LC(SPACE)>;
-            key-positions = <37 40>;
-        };
     };
 
     behaviors {
@@ -69,10 +64,10 @@
         Lower {
             label = "Lower";
             bindings = <
-&kp ASTRK  &kp SLASH      &kp N7        &kp NUMBER_8     &kp NUMBER_9  &kp EQUAL    &trans  &trans        &trans    &trans     &trans  &trans
-&kp DEL    &kp BACKSPACE  &kp NUMBER_4  &kp N5           &kp NUMBER_6  &kp MINUS    &trans  &trans        &kp UP    &trans     &trans  &trans
-&kp PLUS   &kp NUMBER_0   &kp NUMBER_1  &kp NUMBER_2     &kp NUMBER_3  &kp DOT      &trans  &kp LEFT      &kp DOWN  &kp RIGHT  &trans  &trans
-                                        &kp LC(LA(DEL))  &trans        &trans       &trans  &lt 4 KP_NUM
+&kp ASTRK  &kp SLASH      &kp N7        &kp NUMBER_8     &kp NUMBER_9  &kp EQUAL    &trans  &trans         &trans    &trans     &trans  &trans
+&kp DEL    &kp BACKSPACE  &kp NUMBER_4  &kp N5           &kp NUMBER_6  &kp MINUS    &trans  &trans         &kp UP    &trans     &trans  &trans
+&kp PLUS   &kp NUMBER_0   &kp NUMBER_1  &kp NUMBER_2     &kp NUMBER_3  &kp DOT      &trans  &kp LEFT       &kp DOWN  &kp RIGHT  &trans  &trans
+                                        &kp LC(LA(DEL))  &trans        &trans       &trans  &kp LC(SPACE)
             >;
         };
 
