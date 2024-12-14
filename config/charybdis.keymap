@@ -102,7 +102,7 @@
         ctrAND {
             bindings = <
 &trans     &trans     &trans     &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &kp LC(S)  &trans     &trans     &kp LC(F)  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans     &kp LC(S)  &trans     &kp LC(F)  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &kp LC(Y)  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                                  &trans     &trans     &trans    &trans  &trans  &trans
             >;
