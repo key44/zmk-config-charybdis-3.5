@@ -37,6 +37,11 @@
             bindings = <&mo 1>;
             key-positions = <19 22>;
         };
+
+        henkan {
+            bindings = <&kp LC(SPACE)>;
+            key-positions = <37 40>;
+        };
     };
 
     behaviors {
