@@ -101,10 +101,10 @@
 
         ctrAND {
             bindings = <
-&trans  &trans  &trans  &trans  &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp A   &kp S   &kp D   &kp F      &kp H        &trans  &trans  &trans  &trans  &trans  &trans
-&kp Y   &kp Z   &kp X   &kp C   &kp V      &trans       &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &kp LCTRL  &kp LCTRL    &trans  &trans  &trans
+&trans     &trans     &trans     &trans     &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LC(H)    &trans  &trans  &trans  &trans  &trans  &trans
+&kp LC(Y)  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans       &trans  &trans  &trans  &trans  &trans  &trans
+                                 &trans     &kp LCTRL  &trans       &trans  &trans  &trans
             >;
         };
     };
