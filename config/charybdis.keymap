@@ -3,6 +3,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
 &led_strip { chain-length = <26>; };
@@ -77,19 +78,19 @@
         Raise {
             label = "Raise";
             bindings = <
-&trans      &kp F7  &kp F8  &kp F9              &kp F12  &trans     &kp LPAR  &kp RPAR  &trans  &trans
-&bt BT_NXT  &kp F4  &kp F5  &kp F6              &kp F11  &kp GRAVE  &kp LBKT  &kp RBKT  &trans  &trans
-&trans      &kp F1  &kp F2  &kp F3              &kp F10  &trans     &trans    &trans    &trans  &trans
-                            &trans  &kp LSHIFT  &trans              &trans    &trans
+&bt BT_CLR_ALL  &kp F7  &kp F8  &kp F9              &kp F12  &kp GRAVE  &kp LPAR       &kp RPAR          &trans  &kp DEL
+&bt BT_NXT      &kp F4  &kp F5  &kp F6              &kp F11  &kp SQT    &kp LBKT       &kp RBKT          &trans  &kp SLASH
+&bt BT_PRV      &kp F1  &kp F2  &kp F3              &kp F10  &trans     &kp LESS_THAN  &kp GREATER_THAN  &trans  &kp BACKSLASH
+                                &trans  &kp LSHIFT  &trans              &trans         &trans
             >;
         };
 
         mouse_layer {
             bindings = <
-&kp LCTRL    &kp LEFT_ALT   &kp DEL    &kp LEFT_SHIFT          &trans  &trans  &trans     &trans         &trans     &trans
-&kp PERCENT  &kp DOLLAR     &kp HASH   &kp AT_SIGN             &trans  &trans  &mkp LCLK  &mkp RCLK      &mkp MCLK  &trans
-&kp APOS     &kp AMPERSAND  &kp ASTRK  &kp EXCL                &trans  &trans  &mkp MB4   &mkp MB5       &trans     &trans
-                                       &trans          &trans  &trans          &trans     &kp LG(SPACE)
+&kp LCTRL    &kp LEFT_ALT   &kp DEL    &kp LEFT_SHIFT          &kp LEFT_WIN  &trans  &trans     &trans         &trans     &trans
+&kp PERCENT  &kp DOLLAR     &kp HASH   &kp AT_SIGN             &kp LCTRL     &trans  &mkp LCLK  &mkp RCLK      &mkp MCLK  &trans
+&kp APOS     &kp AMPERSAND  &kp ASTRK  &kp EXCL                &kp UNDER     &trans  &mkp MB4   &mkp MB5       &trans     &trans
+                                       &trans          &trans  &trans                &trans     &kp LG(SPACE)
             >;
         };
 
@@ -104,10 +105,19 @@
 
         ctrLayer {
             bindings = <
-&trans     &trans     &trans     &trans             &trans          &trans  &trans  &trans  &trans  &trans
-&kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)          &kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans
+&trans     &trans     &kp LC(H)  &kp LC(Y)          &kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans
+&kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)          &kp TAB         &trans  &trans  &trans  &trans  &trans
 &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)          &kp LCTRL       &trans  &trans  &trans  &trans  &trans
                                  &trans     &trans  &trans                  &trans  &trans
+            >;
+        };
+
+        layer_6 {
+            bindings = <
+&trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans          &trans  &trans
             >;
         };
     };
