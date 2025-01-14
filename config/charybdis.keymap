@@ -78,10 +78,10 @@
         Raise {
             label = "Raise";
             bindings = <
-&bt BT_CLR_ALL  &kp F7  &kp F8  &kp F9              &kp F12  &trans  &kp LPAR       &kp RPAR          &kp GRAVE  &kp DEL
-&bt BT_NXT      &kp F4  &kp F5  &kp F6              &kp F11  &trans  &kp LBKT       &kp RBKT          &kp SQT    &kp SLASH
-&bt BT_PRV      &kp F1  &kp F2  &kp F3              &kp F10  &trans  &kp LESS_THAN  &kp GREATER_THAN  &trans     &kp BACKSLASH
-                                &trans  &kp LSHIFT  &trans           &trans         &trans
+&bt BT_CLR_ALL  &kp F7  &kp F8  &kp F9              &kp F12  &kp DELETE  &kp LPAR       &kp RPAR          &kp GRAVE  &kp BACKSPACE
+&bt BT_NXT      &kp F4  &kp F5  &kp F6              &kp F11  &trans      &kp LBKT       &kp RBKT          &kp SQT    &kp SLASH
+&bt BT_PRV      &kp F1  &kp F2  &kp F3              &kp F10  &trans      &kp LESS_THAN  &kp GREATER_THAN  &trans     &kp BACKSLASH
+                                &trans  &kp LSHIFT  &trans               &trans         &trans
             >;
         };
 
