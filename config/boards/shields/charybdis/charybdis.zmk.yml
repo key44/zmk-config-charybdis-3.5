@@ -1,6 +1,6 @@
 file_format: "1"
-id: charybdis
-name: Charybdis
+id: crosses
+name: Crosses
 type: shield
 url: https://github.com/Bastardkb/Charybdis/
 requires: [pro_micro]
@@ -8,5 +8,5 @@ features:
   - keys
   - underglow
 siblings:
-  - charybdis_left
-  - charybdis_right
+  - crosses_left
+  - crosses_right
