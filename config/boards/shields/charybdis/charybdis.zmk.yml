@@ -8,5 +8,5 @@ features:
   - keys
   - underglow
 siblings:
-  - crosses_left
-  - crosses_right
+  - charybdis_left
+  - charybdis_right
