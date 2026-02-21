@@ -143,10 +143,10 @@
 
         ctrLayer {
             bindings = <
-&kp LC(K)  &trans     &kp LC(H)  &kp LC(Y)             &kp LCTRL  &trans  &trans  &trans  &trans  &trans
-&kp LC(F)  &kp LC(S)  &kp LC(D)  &kp LC(A)             &kp TAB    &trans  &trans  &trans  &trans  &trans
-&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)             &kp LSHFT  &trans  &trans  &trans  &trans  &trans
-                                 &trans     &kp LCTRL  &trans             &trans  &trans
+&trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans            &trans  &trans
+&trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans            &trans  &trans
+&trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans            &trans  &trans
+                        &trans  &trans  &trans          &trans  &kp LEFT_COMMAND
             >;
         };
     };
