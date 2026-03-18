@@ -14,7 +14,6 @@
 #define CTRL_ALT 6
 #define CTRL_SWAP 7
 
-&led_strip { chain-length = <26>; };
 
 / {
     combos {
