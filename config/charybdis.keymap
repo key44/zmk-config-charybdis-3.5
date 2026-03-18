@@ -61,6 +61,16 @@
             >;
         };
 
+        Base_mac {
+            label = "Base_mac";
+            bindings = <
+&kp ESC             &kp Q  &kp W  &kp E        &kp R        &kp T                     &kp Y               &kp U        &kp I      &kp O    &kp P     &kp BSPC
+&kp TAB             &kp A  &kp S  &kp D        &kp F        &kp G                     &kp H               &kp J        &kp K      &kp L    &kp SEMI  &kp SQT
+&mt LEFT_ALT EQUAL  &kp Z  &kp X  &kp C        &kp V        &kp B                     &kp N               &kp M        &kp COMMA  &kp DOT  &kp FSLH  &kp BACKSLASH
+                                  &lt 3 GRAVE  &lt 1 ENTER  &mt LEFT_GUI MINUS    &mt LEFT_SHIFT DEL  &lt 2 SPACE
+            >;
+        };
+
         Lower {
             label = "Lower";
             bindings = <
@@ -85,7 +95,7 @@
             bindings = <
 &kp LEFT_GUI  &kp LCTRL    &kp LEFT_ALT  &kp LEFT_SHIFT  &kp DEL      &trans    &trans  &trans         &trans     &trans     &trans  &trans
 &kp CARET     &kp PERCENT  &kp DOLLAR    &kp HASH        &kp AT_SIGN  &trans    &trans  &mkp LCLK      &mkp RCLK  &mkp MCLK  &trans  &trans
-&kp LC(Y)     &kp ASTRK    &trans        &trans          &kp EXCL     &trans    &trans  &mkp MB4       &mkp MB5   &trans     &trans  &trans
+&kp LC(Y)     &kp ASTRK    &trans        &trans          &kp EXCL     &tog 1    &trans  &mkp MB4       &mkp MB5   &trans     &trans  &trans
                                          &trans          &trans       &trans    &trans  &kp LC(SPACE)
             >;
         };
