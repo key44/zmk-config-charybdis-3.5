@@ -54,7 +54,7 @@
         Base {
             label = "Base";
             bindings = <
-&kp GRAVE &kp Q  &kp L  &kp E        &kp COMMA    &kp SEMICOLON                &kp F       &kp W               &kp Y  &kp B  &kp P  &kp DEL
+&kp ESC   &kp Q  &kp L  &kp E        &kp COMMA    &kp SEMICOLON                &kp F       &kp W               &kp Y  &kp B  &kp P  &kp DEL
 &kp TAB   &kp U  &kp I  &kp O        &kp A        &kp GRAVE                    &kp H       &kp N               &kp S  &kp T  &kp K  &kp SLASH
 &kp SQT   &kp Z  &kp X  &kp C        &kp V        &kp PERIOD                   &kp J       &kp R               &kp M  &kp D  &kp G  &kp BACKSLASH
                         &lt 4 BSPC   &lt 2 ENTER  &mt LEFT_CONTROL MINUS       &mt LEFT_SHIFT DEL  &lt 3 SPACE
@@ -64,7 +64,7 @@
         Base_mac {
             label = "Base_mac";
             bindings = <
-&kp GRAVE &kp Q  &kp L  &kp E        &kp COMMA    &kp SEMICOLON                &kp F               &kp W       &kp Y  &kp B  &kp P  &kp DEL
+&kp ESC   &kp Q  &kp L  &kp E        &kp COMMA    &kp SEMICOLON                &kp F               &kp W       &kp Y  &kp B  &kp P  &kp DEL
 &kp TAB   &kp U  &kp I  &kp O        &kp A        &kp GRAVE                    &kp H               &kp N       &kp S  &kp T  &kp K  &kp SLASH
 &kp SQT   &kp Z  &kp X  &kp C        &kp V        &kp PERIOD                   &kp J               &kp R       &kp M  &kp D  &kp G  &kp BACKSLASH
                         &lt 4 BSPC   &lt 2 ENTER  &mt LEFT_GUI MINUS           &mt LEFT_SHIFT DEL  &lt 3 SPACE
