@@ -9,17 +9,17 @@
         compatible = "zmk,combos";
 
         mkp_left {
-            bindings = <&mkp LMB>;
+            bindings = <&mkp MB1>;  /* MB1 = 左クリック */
             key-positions = <19 20>;
         };
 
         rclk {
-            bindings = <&mkp RMB>;
+            bindings = <&mkp MB2>;  /* MB2 = 右クリック */
             key-positions = <20 21>;
         };
 
         mclk {
-            bindings = <&mkp MMB>;
+            bindings = <&mkp MB3>;  /* MB3 = 中クリック */
             key-positions = <19 21>;
         };
 
@@ -95,7 +95,7 @@
             label = "Mouse";
             bindings = <
 &kp LEFT_GUI  &kp LCTRL    &kp LEFT_ALT  &kp LEFT_SHIFT  &kp DEL      &trans    &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_TOG  &trans     &trans  &trans
-&kp CARET      &kp PERCENT  &kp DOLLAR    &kp HASH        &kp AT_SIGN  &trans    &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &mkp RMB         &mkp MMB   &trans  &trans
+&kp CARET      &kp PERCENT  &kp DOLLAR    &kp HASH        &kp AT_SIGN  &trans    &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &mkp MB2         &mkp MB3   &trans  &trans
 &kp LC(Y)      &kp ASTRK    &trans        &trans          &kp EXCL     &tog 1    &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &mkp MB5         &trans     &trans  &trans
                                           &trans          &trans       &trans    &trans           &kp LC(SPACE)
             >;
