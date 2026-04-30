@@ -94,9 +94,9 @@
         mouse_layer {
             label = "Mouse";
             bindings = <
-&kp LEFT_GUI  &kp LCTRL    &kp LEFT_ALT  &kp LEFT_SHIFT  &kp DEL      &trans    &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_TOG  &trans     &trans  &trans
-&kp CARET      &kp PERCENT  &kp DOLLAR    &kp HASH        &kp AT_SIGN  &trans    &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &mkp MB2         &mkp MB3   &trans  &trans
-&kp LC(Y)      &kp ASTRK    &trans        &trans          &kp EXCL     &tog 1    &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &mkp MB5         &trans     &trans  &trans
+&kp LEFT_GUI  &kp LCTRL    &kp LEFT_ALT  &kp LEFT_SHIFT  &kp DEL       &trans    &trans  &trans  &trans           &trans     &trans  &trans
+&kp CARET      &kp PERCENT  &kp DOLLAR    &kp HASH        &kp AT_SIGN  &trans    &trans  &trans  &mkp MB2         &mkp MB3   &trans  &trans
+&kp LC(Y)      &kp ASTRK    &trans        &trans          &kp EXCL     &tog 1    &trans  &trans  &mkp MB5         &trans     &trans  &trans
                                           &trans          &trans       &trans    &trans           &kp LC(SPACE)
             >;
         };
