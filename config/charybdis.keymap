@@ -9,17 +9,17 @@
         compatible = "zmk,combos";
 
         mkp_left {
-            bindings = <&mkp LCLK>;
+            bindings = <&mkp LMB>;
             key-positions = <19 20>;
         };
 
         rclk {
-            bindings = <&mkp RCLK>;
+            bindings = <&mkp RMB>;
             key-positions = <20 21>;
         };
 
         mclk {
-            bindings = <&mkp MCLK>;
+            bindings = <&mkp MMB>;
             key-positions = <19 21>;
         };
 
